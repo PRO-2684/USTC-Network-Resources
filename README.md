@@ -48,11 +48,11 @@
 
 * [www.ustc.edu.cn](https://www.ustc.edu.cn)（科大官网首页）：  
 中国科学技术大学官网，似乎[新版](https://www.ustc.edu.cn/zh_CN/)更好看一些。
-    - 2023/6/4 注：应该已经换成新版的了
+    - 2023/6/4 注：首页已经换成新版的了，访问上述新版网址会报错。Wayback Machine 上可以看到主页的变更 ([https://web.archive.org/web/20150101233617/https://www.ustc.edu.cn/](旧)，[新](https://web.archive.org/web/20150122003354/http://www.ustc.edu.cn/zh_CN/))
 
 * [mail.ustc.edu.cn](https://mail.ustc.edu.cn)（科大邮箱）：  
 每名学生可以申请一个以 `@mail.ustc.edu.cn` 结尾的邮箱，一般用于官方用途（比如提交一些申请、交作业、联系老师和助教、接收学校通知等）。申请时邮箱名建议正式一些，推荐姓名拼音。不要使用奇怪的名字，在校期间可以在[这里](https://zczx.ustc.edu.cn/accounts)另外申请一个邮箱名，两个邮箱名均可使用。小技巧：  
-有些浏览器保存密码时不能保存下拉列表的状态，每次登录都要选“@mail.ustc.edu.cn”，这时可以直接在用户名处填写“xxx@mail.ustc.edu.cn”，即使下拉列表选择了“@ustc.edu.cn”也可以正常登录。
+有些浏览器保存密码时不能保存下拉列表的状态，每次登录都要选“@mail.ustc.edu.cn”，这时可以直接在用户名处填写“xxx@mail.ustc.edu.cn”，即使下拉列表选择了“@ustc.edu.cn”也可以正常登录。当然，你也可以使用插件/脚本来实现自动选择。
 
 * [zczx.ustc.edu.cn](https://zczx.ustc.edu.cn/)（网络通服务中心）：  
 可以缴费和管理网络通账号
@@ -67,15 +67,20 @@
 
 * [mis.teach.ustc.edu.cn](https://mis.teach.ustc.edu.cn)（旧版综合教务系统）：  
 用于选课、查成绩、教学评价等。大一军训期间学校会统一教学生如何使用并进行第一次选课，所以选课相关的操作此处不再赘述。登录后左侧的选课结果可以看到每学期选过的课，在这里也可以看到当前学期课程的**期末考试时间**（是在学期中不断更新的）。成绩查询可以查询每学期的成绩和总成绩，但查看单科分数之前要先进行教学评估。左侧联系方式可以看到每个学院教学秘书的联系方式。教务系统的[公共信息查询平台](https://mis.teach.ustc.edu.cn/search_public.html)可以查询**培养计划**（也就是每个院每学期要上的课表）、**空闲教室**、课程列表等信息。在[课程列表](https://mis.teach.ustc.edu.cn/kbcx.do)页面点击课程名称可以看到学分、考核方式、预修课程、教材等有用信息。
+    - 2023/7/24 注：目前看来基本上用不到了
 
-* [jw.ustc.edu.cn](https://jw.ustc.edu.cn)（新版教务系统）
+* [jw.ustc.edu.cn](https://jw.ustc.edu.cn)（新版教务系统）：
+用于选课、查成绩等。
+
+* [tqm.ustc.edu.cn](https://tqm.ustc.edu.cn/)（教学质量管理系统）：
+各种课程评价就在这里进行。你可能会喜欢[自动评教脚本](https://greasyfork.org/scripts/457282)。
 
 * [passport.ustc.edu.cn](https://passport.ustc.edu.cn)（统一身份认证系统）：  
 现在学校绝大多数网站已经支持通过统一身份认证系统登录，不需要每个网站单独使用用户名和密码登录，更方便、安全。如果想退出登录或者修改密码，可以访问[这里](https://passport.ustc.edu.cn/login)。
     - 2023/6/4 注: 校外登录已启用验证码，通过[常见的前端技巧](https://greasyfork.org/zh-CN/scripts/438462)可以绕过
 
 * [ms.ustc.edu.cn](http://ms.ustc.edu.cn)（正版软件，仅校园网可访问）：  
-需要先在 i.ustc.edu.cn 登录。提供了**正版 Windows、正版 Office（包括 Windows 和 Mac 版本）、正版 Matlab、正版福昕 PDF 套件、正版 NOD32 杀毒软件**等。
+需要先在 i.ustc.edu.cn 登录。提供了**正版 Windows、正版 Office（包括 Windows 和 Mac 版本）、正版 Matlab、正版 Mathematica、正版福昕 PDF 套件、正版 NOD32 杀毒软件**等。
 
 * [rec.ustc.edu.cn](https://rec.ustc.edu.cn)（睿客网）：  
 每人拥有 **1 TB 的云盘空间**，可以分享文件（可以设置为仅校内可见）。上面有**大家上传的很多资源**，也有很多课程。
@@ -83,14 +88,15 @@
 
 * [home.ustc.edu.cn](http://home.ustc.edu.cn)（个人主页）：  
 每人拥有 300M 的免费 ftp 空间，可以用来搭建静态**个人主页**。由于是科大域名，显得比较正规。使用方法在[这里](http://home.ustc.edu.cn/)。
-    - 2023/6/4 注: **2022 开始，新生不可以在此托管个人主页**，建议白嫖 Github Pages
+    - 2023/6/4 注: **2022 开始，不可以在此注册个人主页**，已经开通的不受影响。建议白嫖 Github Pages
 
 * [staff.ustc.edu.cn](http://staff.ustc.edu.cn)（教工个人主页）：  
 教师的 ftp 空间和个人主页服务，如果知道老师的邮箱，可以通过 `staff.ustc.edu.cn/~邮箱名/` 来访问。
 
 * [bbs.ustc.edu.cn](https://bbs.ustc.edu.cn)（瀚海星云 BBS）：  
 学校的官方论坛，需要使用校内网络注册。当**需要和学校某些部门联系**时，在瀚海星云发帖是一个不错的选择，对应的版块会有官方人员回复。
-    - 2023/6/4 注: 目前处于半死不活的状态
+    - 2023/6/4 注: 由于使用人数较少，目前处于半死不活的状态
+    - 2023/7/24 注：貌似只能通过校园网访问
 
 * [mirrors.ustc.edu.cn](https://mirrors.ustc.edu.cn)（开源软件镜像）：  
 提供很多**开源软件的镜像服务**，在校内使用速度很快（校外也很快）。如果你使用 Linux 系统，一定要把软件源设置为科大源，可以大幅加快安装软件的速度。Linux 系统的安装镜像也可以在这里下载。还有安卓源代码等等。  
@@ -118,7 +124,7 @@
 可以查看教学日历（查询考试周、**放假开学时间**等）、查看各种交流实习的通知、甚至教学评估统计结果等。
 
 * [www.bb.ustc.edu.cn](https://www.bb.ustc.edu.cn)（网络教学平台/BB 系统）：  
-其中的 bb 代表 blackboard，是一个网络的教学系统，很多老师喜欢在上面发通知、上传课件、留作业，也可以看其他课程的资源。
+其中的 bb 代表 [Blackboard](https://www.blackboard.com/)，是一个网络的教学系统，很多老师喜欢在上面发通知、上传课件、留作业，也可以看其他课程的资源。
 
 * [oj.ustc.edu.cn](https://oj.ustc.edu.cn)（Online Judge）：  
 ACM 比赛的训练系统，上面有很多算法题可以做，可以提交自己的代码进行评测。ACM 的迎新赛也在上面进行。
@@ -136,10 +142,6 @@ ACM 比赛的训练系统，上面有很多算法题可以做，可以提交自�
 
 * [moocs.ustc.edu.cn](http://moocs.ustc.edu.cn)（慕课平台）：  
 有一些课程可以在线学习。
-
-* [sf.ustc.edu.cn](https://sf.ustc.edu.cn)（网上缴费系统）：  
-可以用银行卡交学费和其他费用。
-   - 2023/6/4 注: 现已无法访问
 
 * [ecard.ustc.edu.cn](https://ecard.ustc.edu.cn)（校园一卡通信息管理系统）：  
 可以查询自己**一卡通的详细消费记录**，也可以挂失解挂。
@@ -204,8 +206,7 @@ ACM 比赛的训练系统，上面有很多算法题可以做，可以提交自�
 这里只列出我们学校购买/订阅的服务，“GitHub 学生优惠”、“扫描全能王学生账号”等所有高校学生都可以享受的教育优惠在此不列出。此类优惠可以参考 https://github.com/ivmm/Student-resources
 
 * 科大邮箱有在线版 MATLAB 的授权。
-* 科大购买的 Mathematica 服务使用校内服务器分发，目前只支持 50 人同时在线。
-   - 2023/6/4 注: 现已购买了新的许可，不限制使用场景与人数 (邮箱激活就可以开始使用)，详见 https://software.ustc.edu.cn/mathematica/Mathematica%E9%82%AE%E7%AE%B1%E6%BF%80%E6%B4%BB.docx
+* 科大购买的 Mathematica 服务使用校内服务器分发，~~目前只支持 50 人同时在线~~。(2023/6/4) 现已购买了新的许可，不限制使用场景与人数 (邮箱激活就可以开始使用)，详见 https://software.ustc.edu.cn/mathematica/Mathematica%E9%82%AE%E7%AE%B1%E6%BF%80%E6%B4%BB.docx
 * Office 365 教育版 A1 计划，详见 https://ustcnet.ustc.edu.cn/2018/1219/c11104a366368/page.htm 和 http://staff.ustc.edu.cn/~wf0229/office365/  
     - **A1 计划不包含 Office 桌面版，要获取科大购买的 Office 服务请在正版化网站下载 LTSC 批量授权版本**  
     - **加入 A1 计划后可以享有 5 TB OneDrive 版本，需要指出微软已禁止常规方式注册 edu 邮箱的微软账户，加入教育计划请去[这里](https://office.com/)，更多信息请见以上文章**
@@ -238,6 +239,9 @@ ACM 比赛的训练系统，上面有很多算法题可以做，可以提交自�
 
 * [grid.ustc.edu.cn](http://grid.ustc.edu.cn)：  
 一个 FTP 搜索引擎。
+
+* [sf.ustc.edu.cn](https://sf.ustc.edu.cn)（网上缴费系统）：  
+可以用银行卡交学费和其他费用。
 
 * [202.141.162.24:7480](http://202.141.162.24:7480/)（自助打印复印管理系统）：  
 首次登录用户名为学号，密码为空。可以在此上传文档后在西区和东区图书馆的自助打印机器上刷卡打印，也可以扫描后在这个网站上下载扫描的文档。
